@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UtF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>備忘錄app</title>
+        <!-- 連結、type、rel -->
+        <link href = "備忘錄app.css" type = "text/CSS" rel = "stylesheet">
+    </head>
+
+    <body>
+        <div class="app">
+            <div class="writeDown">
+                <div class="topBar">備忘錄</div>
+                <div class="title">記事</div>
+                <input type="text" id="content">
+                <div class="title">日期</div>
+                <input type="date" id="date">
+                <div class="title">時間</div>
+                <input type="time" id="time">
+                <button id="timeNow" class="nowButton">現在時間</button>
+                <button id="addBtn" class="Btn">新增</button>
+                <button id="deleteBtn" class="Btn">刪除最近一筆</button>
+            </div>
+            <div class="notebook" id="ntbook">
+                <!-- <div class="record">
+                    <div class="item">內容：</div>
+                    <div class="item">時間：</div>
+                </div> -->
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+        <script src="備忘錄app.js"></script>
+
+    </body>
+</html>
