@@ -41,6 +41,7 @@ input{
     box-sizing: border-box;
     border: black solid 1px;
     background-color: white;
+    cursor: pointer;
 }
 .Btn{
     box-sizing: border-box;
@@ -52,6 +53,7 @@ input{
     font-weight: bold;
     background-color: black;
     border: black solid 1px;
+    cursor: pointer;
 }
 #deleteBtn{
     background-color: red;
