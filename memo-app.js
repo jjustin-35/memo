@@ -41,8 +41,12 @@ function save(){
 
 //取出瀏覽器資料
 let list_past = localStorage.getItem('list')
+console.log(list_past)
 //轉換資料為陣列
 let list = JSON.parse(list_past)
+if (!list) {
+    list = [];
+}
 //渲染
 newRecord(list)
 
